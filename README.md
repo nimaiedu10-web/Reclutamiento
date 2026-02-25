@@ -65,9 +65,9 @@ Por la Patria.</p>
 <footer>
 <p></p>
 </footer>
+</html>
 
 <style>
- 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -124,4 +124,5 @@ footer {
 
  
 </body>
-</html>
+ </style>
+
