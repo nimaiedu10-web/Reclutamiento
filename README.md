@@ -6,6 +6,64 @@ reclutamiento trabajo informatica
 <meta charset="UTF-8">
 <title>Web sencilla</title>
 <link rel="stylesheet" href="estilos.css">
+
+ <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+    /* Imagen de fondo papel antiguo */
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/texture-of-grungy-cardboard-with-worn-out-paper-sheet-powerpoint-background_e19ebd09a3__960_540.jpg");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+/* Encabezado */
+header {
+    background-color: si lees esto, hola
+; /* Fondo negro */
+    color: black; /* Texto blanco para que se vea */
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* Secciones */
+.seccion {
+    background-color: /* Transparente para que se vea el fondo */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Sección con imagen y texto en horizontal */
+.especial {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagen img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.texto {
+    flex: 1;
+}
+
+/* Pie de página */
+footer {
+    background-color: rgba(51, 51, 51, 0.9); /* Transparente */
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+ 
+</style>
 </head>
  
 <body>
@@ -66,62 +124,5 @@ Por la Patria.</p>
 <p></p>
 </footer>
 </body>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-
-    /* Imagen de fondo papel antiguo */
-    background-image: url("https://image.slidesdocs.com/responsive-images/background/texture-of-grungy-cardboard-with-worn-out-paper-sheet-powerpoint-background_e19ebd09a3__960_540.jpg");
-    background-size: cover;       
-    background-position: center;  
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-}
-
-/* Encabezado */
-header {
-    background-color: si lees esto, hola
-; /* Fondo negro */
-    color: black; /* Texto blanco para que se vea */
-    text-align: center;
-    padding: 20px;
-
-}
-
-/* Secciones */
-.seccion {
-    background-color: /* Transparente para que se vea el fondo */
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-/* Sección con imagen y texto en horizontal */
-.especial {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.imagen img {
-    width: 200px;
-    border-radius: 8px;
-}
-
-.texto {
-    flex: 1;
-}
-
-/* Pie de página */
-footer {
-    background-color: rgba(51, 51, 51, 0.9); /* Transparente */
-    color: white;
-    text-align: center;
-    padding: 15px;
-}
-
- 
-</style>
  </html>
 
