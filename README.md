@@ -66,10 +66,6 @@ Por la Patria.</p>
 <p></p>
 </footer>
 
-estilos.CSS
-
-CSS
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
